@@ -6,10 +6,39 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="assets/css/marketing.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
+
+  <div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+      <a class="pure-menu-heading" href="">Rating Mouse</a>
+
+      <ul class="pure-menu-list">
+        <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Sign Up</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="splash-container">
+
+    <div class="splash">
+      <h1 class="splash-head">What Restaurant Are You Looking For?</h1>
+      <p class="splash-subhead">
+        Get the Health Inspector's Rating and User Reviews.
+      </p>
+      <p>
+        <a href="" class="pure-button pure-button-primary">SEARCH</a>
+      </p>
+    </div>
+
+  </div>
+
+  <!--=====================   BEGIN GOOGLE SEARCH AND MAP   =====================-->
   <div class="pac-card" id="pac-card">
     <div>
       <div id="title">
@@ -43,8 +72,10 @@
     <span id="place-name" class="title"></span><br>
     <span id="place-address"></span>
   </div>
+  <!--=====================   END GOOGLE SEARCH AND MAP   =====================-->
 
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcn8hrJ-pcTya1q-oTCfK_Irzfux6QTRY&libraries=places&callback=initMap" async defer></script>
   <script src="assets/javascript/app.js"></script>
 </body>
