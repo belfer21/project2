@@ -1,8 +1,17 @@
-    
+/*==============================   PRIMARY PAGE LAYOUT   ==============================*/
+
+
+
+
+
+
+
+
+/*==============================   GOOGLE SEARCH AND MAP   ==============================*/
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
       #map {
-        margin-top:10%; 
+        margin-top:10%;
         height: 90%;
         margin-left: 50%;
         margin-bottom: 00%;
@@ -80,4 +89,3 @@
         font-weight: 500;
         padding: 6px 12px;
       }
-   
